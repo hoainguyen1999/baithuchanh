@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-10 07:31:34 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzozMDowNCBQTTszODIx"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzozMTozNCBQTTsxOzM5MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Real" array="False" size=""/>
+            <declare name="s" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="s" expression="3.14*r^2"/>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

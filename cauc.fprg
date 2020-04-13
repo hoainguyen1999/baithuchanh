@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-10 07:35:54 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzozMTozOCBQTTszODI5"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzozNTo1NCBQTTsxOzM5Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="circle" type="Real" variable="s">
+        <parameters/>
+        <body>
+            <declare name="s" type="Real" array="False" size=""/>
+            <assign variable="s" expression="pi*r^2"/>
+        </body>
+    </function>
+</flowgorithm>

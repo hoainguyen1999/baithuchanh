@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-10 07:50:07 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzozOToyNCBQTTszODMy"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzo1MDowNyBQTTsxOzM5MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n=1">
+                <then>
+                    <output expression="&quot;n ko la so nguyen to&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;4">
+                        <then>
+                            <output expression="&quot; n la so nguyen to&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <assign variable="i" expression="2"/>
+                    <while expression="n%i==0">
+                        <assign variable="i" expression="i+1"/>
+                    </while>
+                    <if expression="i==n">
+                        <then>
+                            <output expression="&quot;n la so nguyen to&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;n ko la so nguyen to&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

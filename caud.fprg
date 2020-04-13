@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-10 07:39:01 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzozNTo1OCBQTTszODM1"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtVUkVPVlVLTVRCWk03T1g7MjAyMC0wNC0xMDswNzozOTowMSBQTTsxOzM5MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="h" type="Real" array="False" size=""/>
+            <declare name="s" type="Real" array="False" size=""/>
+            <input variable="c"/>
+            <input variable="h"/>
+            <assign variable="s" expression="0.5*c*h"/>
+            <output expression="&quot;dien tich tam giac s:=&quot; &amp; s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
